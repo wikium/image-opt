@@ -1,0 +1,21 @@
+{
+  "name": "imagemin-files",
+  "version": "0.0.4",
+  "scripts": {
+    "dist": "tsc --outDir dist --sourceMap false",
+    "test": "node ./out/app.js 3 test/1.png test/2.jpg test/3.gif"
+  },
+  "dependencies": {
+    "imagemin": "^5.3.1",
+    "imagemin-gifsicle": "^5.2.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-optipng": "^5.2.1",
+    "lodash": "^4.17.4"
+  },
+  "repository": {},
+  "bin": "./dist/app.js",
+  "devDependencies": {
+    "@types/lodash": "^4.14.76",
+    "@types/node": "^8.0.31"
+  }
+}
