@@ -1,5 +1,5 @@
 {
-  "name": "imagemin-files",
+  "name": "image-opt",
   "version": "0.0.4",
   "scripts": {
     "dist": "tsc --outDir dist --sourceMap false",
